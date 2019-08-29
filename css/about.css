@@ -48,3 +48,31 @@ button:hover {
     color: #ffffff;
     background-color: rgb(146, 31, 31);
 }
+@media(max-width:500px){
+    body{
+        display: inline-block;
+        
+    }
+    
+    .side-bar-r{
+        display: flex;
+        margin:  auto;
+        justify-content: center;
+    }
+    
+    .side-bar-l{
+        display: flex;
+        margin:  auto;
+        justify-content: center;
+     
+       
+    }
+    button{
+        align-content: center;
+       margin: 2% 0% 2% 40%;
+    }
+    h3 , h4{
+        margin-left: 55%;
+        width: 100%;
+    }
+}
