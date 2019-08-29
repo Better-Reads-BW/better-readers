@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/about.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 
 <body>
-        <div class="side-bar-l">
+        <div class="side-bar-l" data-aos="fade-right">
                 <h4>Front End/UI Development Team</h4>
                 <img src="images/team-andrew.png" alt="">
                 <h3>Andrew Goenner</h3>
@@ -22,7 +23,7 @@
                 <button>Check out my portfolio</button>
                
             </div>
-        <div class="side-bar-r">
+        <div class="side-bar-r" data-aos="fade-left">
                 <h4>Back End Development Team</h4>
                 <img src="images/team-susan.png" alt="">
                 <h3>Susan Leigh Trimnal</h3>
@@ -37,5 +38,9 @@
                 <h3>Nayomi Chibana</h3>
                 <button>Check out my portfolio</button>
             </div>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+            AOS.init();
+            </script>
 </body>
 </html>
